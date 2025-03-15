@@ -251,19 +251,19 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-function fizzbuzz(num) {
-  for (let i = 1; i < num; i++) {
-    if (!(i % 3) && !(i % 5)) {
-      console.log('fizzbuzz');
-    } else if (!(i % 3)) {
-      console.log('fizz');
-    } else if (!(i % 5)) {
-      console.log('buzz');
-    } else {
-      console.log(i);
+// function fizzbuzz(num) {
+//   for (let i = 1; i < num; i++) {
+//     if (!(i % 3) && !(i % 5)) {
+//       console.log('fizzbuzz');
+//     } else if (!(i % 3)) {
+//       console.log('fizz');
+//     } else if (!(i % 5)) {
+//       console.log('buzz');
+//     } else {
+//       console.log(i);
       
-    }   
-  }
-}
+//     }   
+//   }
+// }
 
-console.log(fizzbuzz(16));
+// console.log(fizzbuzz(16));
